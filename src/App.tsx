@@ -43,7 +43,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
-              <h1 className="text-xl font-bold text-white tracking-tight">DESQ Vending Services</h1>
+              <img src="/DESQ.png" alt="DESQ Vending Services" className="h-16 w-auto" />
             </div>
 
             {/* Desktop Menu */}
@@ -116,11 +116,11 @@ function App() {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight tracking-tight">
-              Now Seeking Vending Locations<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-300 to-gray-500">in Amarillo, Texas</span>
+              Vending Machine Services<br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-300 to-gray-500">in Amarillo, TX</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-              No cost vending machines for workplaces and commercial facilities. Full service included.
+              Now seeking vending locations. No cost vending machines for workplaces and commercial facilities. Full service included.
             </p>
           </div>
 
@@ -190,6 +190,14 @@ function App() {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* About / SEO paragraph */}
+          <div className="mt-16 bg-gradient-to-br from-white to-gray-50 rounded-3xl p-10 shadow-xl border border-gray-200">
+            <h4 className="text-3xl font-black text-gray-900 mb-4">About DESQ Vending Services</h4>
+            <p className="text-gray-600 text-lg leading-relaxed">
+              DESQ Vending Services is a locally owned vending company proudly based in Amarillo, TX. We specialize in placing and maintaining fully stocked vending machines in offices, warehouses, manufacturing facilities, break rooms, hotels, and other commercial locations throughout Amarillo and the surrounding area. Our machines carry a wide selection of snacks, cold drinks, and healthy options at zero cost to your business. From installation to weekly restocking and fast maintenance, we handle everything so you can focus on what matters most.
+            </p>
           </div>
         </div>
       </section>
@@ -400,7 +408,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
               <div className="mb-6">
-                <h4 className="text-2xl font-black text-white">DESQ Vending Services</h4>
+                <img src="/DESQ.png" alt="DESQ Vending Services" className="h-28 w-auto" />
               </div>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 Professional vending solutions for businesses in Amarillo Texas. Zero cost placement with full service included.
@@ -453,6 +461,9 @@ function App() {
           </div>
 
           <div className="pt-8 border-t border-gray-800 text-center">
+            <p className="text-gray-400 text-sm mb-2">
+              DESQ Vending Services. Proudly serving Amarillo, TX and surrounding areas. Contact us for vending machine installation and restocking services.
+            </p>
             <p className="text-gray-500 text-sm">
               © 2026 DESQ Vending Services. All rights reserved.
             </p>
